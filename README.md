@@ -197,3 +197,7 @@ Todos os demais testes são os mesmos testes encontrados no desafio 01 com algum
 
 Após todo código pronto e acertado de acordo com o teste vamos obter o seguinte resultado abaixo:
 
+<img src="https://github.com/LucasRGarcias/Desafio-03-Corrigindo-codigo/blob/main/src/imgs/Codigo%20testado.png" />
+
+Feito com 💜 por Rocketseat e praticado no curso Ignite trila NodeJS👋
+
