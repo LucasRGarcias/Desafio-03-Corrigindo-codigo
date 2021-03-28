@@ -110,7 +110,7 @@ Para que esse teste passe, você deve impedir que a quantidade de likes de um re
 Por exemplo:
 
 ERRADO:
-
+```jsx
 // Repositório recém criado:
 {
 	id: "c160a99b-9d3b-4669-8a35-8dce1e8196ec",
@@ -134,7 +134,9 @@ ERRADO:
 	url: "https://github.com/Rocketseat/umbriel",
 	likes: 10
 }
+```
 
+```jsx
 CERTO:
 
 // Repositório recém criado:
@@ -161,6 +163,7 @@ CERTO:
 	likes: 0 // A quantidade de likes não mudou
 }
 
+```
 
 - **Should be able to delete the repository**
 
@@ -168,7 +171,12 @@ Para que esse teste passe, você deve permitir que um repositório seja excluíd
 
 - **Should not be able to delete a non existing repository**
 
-Para que esse teste passe, você deve validar se o repositório existe antes de excluí-lo. Caso o repositório não exista, retorne um status `404` com uma mensagem de erro no formato `{ error: "Mensagem do erro" }`.
+Para que esse teste passe, você deve validar se o repositório existe antes de excluí-lo. Caso o repositório não exista, retorne um status `404` com uma mensagem de erro no formato 
+
+```jsx
+`{ error: "Mensagem do erro" }`.
+
+```
 
 ### Testes de likes
 
@@ -178,7 +186,12 @@ Para que esse teste passe, deve ser possível incrementar a quantidade de likes 
 
 - **Should not be able to give a like to a non existing repository**
 
-Para que esse teste passe, você deve validar que um repositório existe antes de incrementar a quantidade de likes. Caso não exista, retorne um status `404` com uma mensagem de erro no formato `{ error: "Mensagem do erro" }`.
+Para que esse teste passe, você deve validar que um repositório existe antes de incrementar a quantidade de likes. Caso não exista, retorne um status `404` com uma mensagem de erro no formato 
+
+```jsx
+`{ error: "Mensagem do erro" }`.
+
+```
 
 Todos os demais testes são os mesmos testes encontrados no desafio 01 com algumas (ou nenhuma) mudanças.
 
